@@ -2,19 +2,22 @@ import {RevealOnScroll} from "../RevealOnScroll.jsx"
 
 export const About = () => {
 
-    const frontendSkills = [
-        "React",
-        "Vue",
+    const programmingLanguages = [
+        "Java",
         "TypeScript",
-        "TailwindCSS",
+        "C++",
+        "Python",
+        "JavaScript",
+        "Shell Script",
+        "PHP"
     ];
 
-    const backendSkills = [
-        "Node.js",
-        "Python",
-        "AWS",
-        "MongoDB",
-        "GraphQL"];
+    const webDevelopment = [
+        "HTML",
+        "CSS",
+        "SpringBoot",
+        "JHipster",
+    ];
 
     return (
         <section id="about" className="min-h-screen flex items-center justify-center py-20">
@@ -34,10 +37,10 @@ export const About = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                                 <h3 className="text-xl font-bold mb-4">
-                                    Frontend
+                                    Programming Languages
                                 </h3>
                                 <div className="flex flex-wrap gap-2">
-                                    {frontendSkills.map((tech, key) => (
+                                    {programmingLanguages.map((tech, key) => (
                                         <span
                                             key={key}
                                             className="bg-blue-500/10 text-blue-500 py-1 px-3
@@ -52,10 +55,10 @@ export const About = () => {
 
                             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                                 <h3 className="text-xl font-bold mb-4">
-                                    Backend
+                                    Web Development
                                 </h3>
                                 <div className="flex flex-wrap gap-2">
-                                    {backendSkills.map((tech, key) => (
+                                    {webDevelopment.map((tech, key) => (
                                         <span
                                             key={key}
                                             className="bg-blue-500/10 text-blue-500 py-1 px-3
@@ -66,6 +69,8 @@ export const About = () => {
                                     ))}
                                 </div>
                             </div>
+
+
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
@@ -81,7 +86,8 @@ export const About = () => {
                                     </strong> - University of British Columbia (2020-2025)
                                 </li>
                                 <li>
-                                    Relevant Coursework: Data Structures, Web Dev, Cloud Computing
+                                    Relevant Coursework: Algorithms, Databases, Machine Learning,
+                                    Artificial Intelligence
                                 </li>
                             </ul>
                         </div>
@@ -96,7 +102,7 @@ export const About = () => {
                                         Software Engineering Intern at Letus 2020-2020
                                     </h4>
                                     <p>
-                                        developed and maintained microservices
+                                        Developed and maintained microservices
                                     </p>
                                 </div>
 
@@ -105,7 +111,8 @@ export const About = () => {
                                         Research Assistant at KPU 2017-2022
                                     </h4>
                                     <p>
-                                        WHAT DID I DO AT KPU
+                                        Developed lab protocols to quantify Trichoderma germination rates in varying
+                                        mediums and contributed to NSERC and CIHR-funded nutrigenomics studies
                                     </p>
                                 </div>
                             </div>
