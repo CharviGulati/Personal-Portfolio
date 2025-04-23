@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 
 ### To deploy
-`npm run build`
+`npm run deploy`
 
 ### Compile scripts
 `npm run dev`
