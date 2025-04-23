@@ -34,16 +34,16 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                             About
                         </a>
 
-                        <a href="#contact"
-                           className="text-gray-300 hove:text-white transition-colors">
-                            {" "}
-                            Contact
-                        </a>
-
                         <a href="#projects"
                            className="text-gray-300 hove:text-white transition-colors">
                             {" "}
                             Projects
+                        </a>
+
+                        <a href="#contact"
+                           className="text-gray-300 hove:text-white transition-colors">
+                            {" "}
+                            Contact
                         </a>
                     </div>
                 </div>
