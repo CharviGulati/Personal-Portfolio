@@ -79,17 +79,31 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4">
                                 Education
                             </h3>
-                            <ul className="list-disc list-inside text-gray-300 space-y-2">
-                                <li>
-                                    <strong>
-                                        B.S. in Computer Science
-                                    </strong> - University of British Columbia (2020-2025)
-                                </li>
-                                <li>
-                                    Relevant Coursework: Algorithms, Databases, Machine Learning,
-                                    Artificial Intelligence
-                                </li>
-                            </ul>
+                            <div className= "space-y-4" >
+                                <div className="list-disc list-inside text-gray-300 space-y-2">
+                                    <div>
+                                        <strong>
+                                            B.Sc in Computer Science
+                                        </strong> - University of British Columbia (2020-2025)
+                                    </div>
+                                    <div className="ml-2">
+                                        <span className="underline"> Relevant Coursework</span>: Algorithms, Databases, Machine Learning,
+                                        Artificial Intelligence
+                                    </div>
+                                </div>
+
+                                <div className="list-disc list-inside text-gray-300 space-y-2">
+                                    <div>
+                                        <strong>
+                                            B.SC in Health Science and Biology
+                                        </strong> - Kwantlen Polytechnic University (2013-2019)
+                                    </div>
+                                    <div className="ml-2">
+                                        <span className="underline "> Relevant Coursework</span>: Genetics, Research Methods, Evolutionary Biology
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
 
                         <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
@@ -101,7 +115,7 @@ export const About = () => {
                                     <h4 className="font-semibold">
                                         Software Engineering Intern at Letus 2020-2020
                                     </h4>
-                                    <p>
+                                    <p className="ml-2">
                                         Developed and maintained microservices
                                     </p>
                                 </div>
@@ -110,7 +124,7 @@ export const About = () => {
                                     <h4 className="font-semibold">
                                         Research Assistant at KPU 2017-2022
                                     </h4>
-                                    <p>
+                                    <p className="ml-2">
                                         Developed lab protocols to quantify Trichoderma germination rates in varying
                                         mediums and contributed to NSERC and CIHR-funded nutrigenomics studies
                                     </p>

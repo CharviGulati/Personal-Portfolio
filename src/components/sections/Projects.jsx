@@ -67,7 +67,7 @@ export const Projects = () => {
                             <div className="flex justify-between items-center">
                                 <a href="https://github.com/CharviGulati/FloodFill"
                                    className="text-blue-400 hover:text-blue-300 transition colors my-4">
-                                    View Project 2 →
+                                    View Project →
                                 </a>
                             </div>
                         </div>
@@ -96,7 +96,7 @@ export const Projects = () => {
                             <div className="flex justify-between items-center">
                                 <a href="https://github.com/CharviGulati/LinkedListImageManipulation"
                                    className="text-blue-400 hover:text-blue-300 transition colors my-4">
-                                    View Project 2 →
+                                    View Project →
                                 </a>
                             </div>
                         </div>
