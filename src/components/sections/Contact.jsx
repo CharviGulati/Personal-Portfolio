@@ -10,6 +10,9 @@ export const Contact = () => {
         message: "",
     });
 
+    const [alert, setAlert] = useState({ show: false, type: "", message: "" });
+
+
     console.log(
         "SERVICE_ID:", import.meta.env.VITE_SERVICE_ID,
         "TEMPLATE_ID:", import.meta.env.VITE_TEMPLATE_ID,
