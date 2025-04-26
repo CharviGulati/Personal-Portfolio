@@ -27,10 +27,11 @@ export const Contact = () => {
                 import.meta.env.VITE_TEMPLATE_ID,
                 e.target,
                 import.meta.env.VITE_PUBLIC_KEY
-            ).then((result) => {
-            alert("Message Sent!!");
-            setFormData({name: "", email: "", message: ""});
-        }).catch(() => alert("Something went wrong! Try again maybe?"));
+            ).then(function(result) {
+                console.log('SUCCESS!', result.text);
+                window.alert("Message Sent!!");
+                setFormData({name: "", email: "", message: ""});
+            }).catch(() => window.alert("Something went wrong! Try again maybe?"));
     };
 
     return (
